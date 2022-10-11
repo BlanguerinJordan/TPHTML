@@ -1,0 +1,109 @@
+div
+{
+    text-align: center;
+}
+
+div#bandeau
+{
+	background-color:#00CCFF;
+    height: 50px;
+    width: 600px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size:xx-large
+
+}
+
+div#contenu
+{
+	background-color:#FFCC00;
+    height: 400px;
+    width: 600px;
+    vertical-align: middle;
+    line-height: 600px;
+    font-size:xx-large
+}
+
+div#piedpage
+{
+	background-color:#33FF99;
+    height: 50px;
+    width: 600px;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size:xx-large
+}
+
+div#menu
+{
+    float:left;
+    height: 400px;
+    width: 100px;
+    background-color:#FF6699;
+    font-size:xx-large
+    
+}
+
+div#menuhaut
+{
+    width: 100px;
+    height: 200px;
+    background-color:#66CC33;
+    font-size:xx-large
+}
+
+div#menubas
+{
+    height: 200px;
+    width: 100px;
+    background-color:#CC99CC;
+    font-size:xx-large
+}
+
+div#blocnews
+{
+    float:right;
+	width:150px;
+	height:150px;
+    background-color:#FF3300;
+    vertical-align: top;
+    line-height: 150px;
+}
+
+#red
+{
+    font-size: 30px;
+    color: red;
+}
+
+#blue
+{
+    font-size: 20px;
+    color: blue;
+}
+
+.red
+{
+    font-size: 30px;
+    color: red;
+}
+
+.blue
+{
+    font-size: 15px;
+    color: blue;
+}
+
+.green
+{
+    font-size: 15px;
+    color: green;
+}
+th{
+    background-color: black;
+}
+
+table,tr,td{
+    border: 2px solid;
+    border-color: black;
+}
