@@ -20,7 +20,18 @@
             {
                 echo "<th>".$array[$i]."</th>";
             }
-            echo "</tr></table>";
+            echo "</tr></table></p>";
+
+            $Tableau=[
+                'Nom' => 'Blanguerin ', 
+                'Prenom' => 'Jordan ',
+                'MDP' => 'JB'
+            ];
+            echo $Tableau['Nom'];
+            echo $Tableau['Prenom'];
+            echo $Tableau['MDP'];
+
+
         ?>
         
     </body>
