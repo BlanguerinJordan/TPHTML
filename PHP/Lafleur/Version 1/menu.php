@@ -11,7 +11,7 @@
                 $ligne = mysqli_fetch_assoc($resultat);
                 while($ligne) 
                 {
-                    echo "<a class=menu <a href=".$ligne["cat_libelle"].".php>".$ligne["cat_libelle"]."</a></a> </li>";
+                    echo "<a class=menu <a href='listePdt.php?categ=".$ligne["cat_code"]."'>".$ligne["cat_libelle"]."</a></a> </li>";
                     $ligne=mysqli_fetch_assoc($resultat);
                 }
                 mysqli_close($id);

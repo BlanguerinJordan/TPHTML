@@ -1,0 +1,42 @@
+body{
+    background-color: #c7edfc;
+    letter-spacing: .02em;
+    color: black;
+}
+header{
+    text-align: center;
+}
+hr{
+    margin: 15px;
+}
+.menu{
+    background-color: #9fdaee;
+    padding: 7px;
+}
+table{
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+a{
+    color: black; text-decoration: none;
+    padding: 7px;
+}
+a:hover {color: rgb(105, 105, 105);}
+a:active {color: red;}
+.police{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fin {
+    position :absolute;
+    bottom : 0px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+}
+h1{
+    text-align: center;
+}

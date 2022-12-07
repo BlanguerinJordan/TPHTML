@@ -31,9 +31,12 @@ a:active {color: red;}
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #fin {
-    position : absolute;
+    position :absolute;
     bottom : 0px;
     text-align: center;
     left: 0px;
     right: 0px;
-  }
+}
+h1{
+    text-align: center;
+}

@@ -19,7 +19,7 @@
         </div>
         
         <div id="fin" >
-            <p>Appelez notre service commercial au 03.22.84.68.74 pour recevoir un bon de commande</p>
+            <p>Appelez notre service commercial au<a href="tel:+33322846874">03.22.84.68.74</a>pour recevoir un bon de commande</p>
         </div>
 
     </body>

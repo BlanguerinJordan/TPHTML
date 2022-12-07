@@ -11,12 +11,12 @@
         ?>
       </header>
 <?php
-$connexion = mysqli_connect("localhost","root","","lafleur1");
+$connexion = mysqli_connect("localhost","root","Bl@N6uY6_0_0","lafleur");
 if ($connexion) 
 {
   // connexion réussie
   mysqli_set_charset ($connexion,"utf8");
-  $requete="select pdt_image,pdt_ref,pdt_designation,pdt_prix from produit";
+  $requete="select pdt_image,pdt_ref,pdt_designation,pdt_prix from produit where pdt_categorie='bul'";
   $nb=0;
   echo "<h1>Liste des bulbes</h1>";
   echo '<p /><table border="2" width="75%">';
@@ -25,12 +25,12 @@ if ($connexion)
   $ligne=mysqli_fetch_assoc($resultat);
   while($ligne) 
   {
-    echo "<tr><td>".$ligne["pdt_image"]."</td><td>".$ligne["pdt_ref"]."</td><td>".$ligne["pdt_designation"]."</td><td>".$ligne["pdt_prix"]. "€</td></tr>";
+    echo "<tr><td><img src='../Images/".$ligne["pdt_image"].".jpg'</img></td><td>".$ligne["pdt_ref"]."</td><td>".$ligne["pdt_designation"]."</td><td>".$ligne["pdt_prix"]. "€</td></tr>";
     $nb++;
     $ligne=mysqli_fetch_assoc($resultat);
   }
   echo "</table><p />";
-  echo "Il y a ".$nb." bulbes.";  
+  echo "<p style='text-align:center'>Il y a ".$nb." bulbes.</p>";  
 }
 else
 {
